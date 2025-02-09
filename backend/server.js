@@ -19,6 +19,7 @@ mongoose
 
 // Routes
 app.use('/rentals', require('./routes/rentalRoutes'));
+app.use('/users', require('./routes/userRoutes'));
 
 // Start Server
 app.listen(PORT, () => {
